@@ -1632,6 +1632,11 @@ input, select, textarea {
 		margin-bottom: 2em;
 		border-radius: 25%;
 	}
+/*I Frame*/
+	iframe {
+		width: 640px;
+		height: 400px;
+	}
 /* Button */
 
 	input[type="button"],
