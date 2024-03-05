@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+contact, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+contact, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -123,6 +123,7 @@ input, select, textarea {
 		transition: color .25s ease-in-out;
 		text-decoration: underline;
 		color: #717479;
+		cursor: pointer;
 	}
 
 		a:hover {
@@ -1620,7 +1621,17 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
-
+	.intro {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		height: 50%;
+		max-height: 500px;
+		max-width: 500px;
+		margin-bottom: 2em;
+		border-radius: 25%;
+	}
 /* Button */
 
 	input[type="button"],
@@ -2122,7 +2133,7 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 3em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 1);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -2139,7 +2150,7 @@ input, select, textarea {
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: #eee;
-					color: rgba(255, 255, 255, 1);
+					color: rgba(0, 0, 0, 1);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2210,36 +2221,36 @@ input, select, textarea {
 				color: #fff;
 			}
 
-/* contact */
+/* aboutme */
 
-	#contact {
+	#aboutme {
 		padding-bottom: 8em;
 		text-align: center;
 	}
 
-		#contact p.style1 {
+		#aboutme p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
 		}
 
-		#contact p.style2 {
-			font-weight: 700;
+		#aboutme p.style2 {
+			font-weight: 200;
 			color: #fff;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
+			font-size: 1em;
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
-			padding: 1em 0 1em 0;
+			padding: 1em 1em 1em 1em;
 			margin-bottom: 1em;
 		}
 
-			#contact p.style2 a {
+			#aboutme p.style2 a {
 				color: inherit;
 				text-decoration: none;
 			}
 
-		#contact p.style3 {
+		#aboutme p.style3 {
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
@@ -2255,13 +2266,13 @@ input, select, textarea {
 		margin-top: 5em;
 	}
 
-/* Highlights */
+/* classes */
 
-	#highlights .highlight {
+	#classes .highlight {
 		text-align: center;
 	}
 
-		#highlights .highlight h3 {
+		#classes .highlight h3 {
 			color: #e97770;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
@@ -2270,103 +2281,103 @@ input, select, textarea {
 
 /* Main */
 
-/* Footer */
+/* contact */
 
-	#footer {
+	#contact {
 		background: #282b34 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
 	}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
+		#contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6, #contact strong, #contact b, #contact a {
 			color: #fff;
 		}
 
-		#footer hr {
+		#contact hr {
 			border-top-color: #333;
 			border-top-color: rgba(255, 255, 255, 0.05);
 		}
 
-		#footer form input[type="text"],
-		#footer form input[type="email"],
-		#footer form input[type="password"],
-		#footer form select,
-		#footer form textarea {
+		#contact form input[type="text"],
+		#contact form input[type="email"],
+		#contact form input[type="password"],
+		#contact form select,
+		#contact form textarea {
 			background: #ccc;
 			box-shadow: none;
 		}
 
-			#footer form input[type="text"]:focus,
-			#footer form input[type="email"]:focus,
-			#footer form input[type="password"]:focus,
-			#footer form select:focus,
-			#footer form textarea:focus {
+			#contact form input[type="text"]:focus,
+			#contact form input[type="email"]:focus,
+			#contact form input[type="password"]:focus,
+			#contact form select:focus,
+			#contact form textarea:focus {
 				background: #fff;
 			}
 
-		#footer input[type="button"],
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer button,
-		#footer .button {
+		#contact input[type="button"],
+		#contact input[type="submit"],
+		#contact input[type="reset"],
+		#contact button,
+		#contact .button {
 			color: #fff;
 			box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
 		}
 
-			#footer input[type="button"]:hover,
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer button:hover,
-			#footer .button:hover {
+			#contact input[type="button"]:hover,
+			#contact input[type="submit"]:hover,
+			#contact input[type="reset"]:hover,
+			#contact button:hover,
+			#contact .button:hover {
 				color: #fff;
 				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
 			}
 
-			#footer input[type="button"]:active,
-			#footer input[type="submit"]:active,
-			#footer input[type="reset"]:active,
-			#footer button:active,
-			#footer .button:active {
+			#contact input[type="button"]:active,
+			#contact input[type="submit"]:active,
+			#contact input[type="reset"]:active,
+			#contact button:active,
+			#contact .button:active {
 				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
 			}
 
-			#footer input[type="button"].style2:active,
-			#footer input[type="submit"].style2:active,
-			#footer input[type="reset"].style2:active,
-			#footer button.style2:active,
-			#footer .button.style2:active {
+			#contact input[type="button"].style2:active,
+			#contact input[type="submit"].style2:active,
+			#contact input[type="reset"].style2:active,
+			#contact button.style2:active,
+			#contact .button.style2:active {
 				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
 			}
 
-		#footer .title {
+		#contact .title {
 			background: #282b34 url("images/overlay.png");
 			color: #eee;
 		}
 
-		#footer header.style1 {
+		#contact header.style1 {
 			padding-bottom: 6em;
 			margin-bottom: 6em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
-			#footer header.style1 h2 {
+			#contact header.style1 h2 {
 				color: #fff;
 			}
 
-			#footer header.style1 .p {
+			#contact header.style1 .p {
 				color: inherit;
 			}
 
-		#footer .feature-list {
+		#contact .feature-list {
 			max-width: 100%;
 		}
 
-			#footer .feature-list section {
+			#contact .feature-list section {
 				border-top-color: rgba(255, 255, 255, 0.05);
 			}
 
-			#footer .feature-list h3:before {
+			#contact .feature-list h3:before {
 				background: #3d4249 url("images/overlay.png");
 			}
 
@@ -2451,27 +2462,27 @@ input, select, textarea {
 					font-size: 1.75em;
 				}
 
-		/* contact */
+		/* aboutme */
 
-			#contact {
+			#aboutme {
 				padding-bottom: 7em;
 			}
 
-				#contact p.style1 {
+				#aboutme p.style1 {
 					font-size: 1.25em;
 				}
 
-				#contact p.style2 {
+				#aboutme p.style2 {
 					font-size: 2.25em;
 				}
 
-		/* Footer */
+		/* contact */
 
-			#footer {
+			#contact {
 				padding-bottom: 4em;
 			}
 
-				#footer header.style1 {
+				#contact header.style1 {
 					padding-bottom: 4em;
 					margin-bottom: 4em;
 					border-bottom: solid 1px rgba(255, 255, 255, 0.05);
@@ -2533,23 +2544,23 @@ input, select, textarea {
 				top: 0;
 			}
 
-		/* contact */
+		/* aboutme */
 
-			#contact p.style3 {
+			#aboutme p.style3 {
 				width: auto;
 			}
 
-		/* Highlights */
+		/* classes */
 
-			#highlights .highlight {
+			#classes .highlight {
 				max-width: 40em;
 				margin-left: auto;
 				margin-right: auto;
 			}
 
-		/* Footer */
+		/* contact */
 
-			#footer .feature-list {
+			#contact .feature-list {
 				border-top: solid 1px rgba(255, 255, 255, 0.05);
 				padding-top: 4em;
 			}
@@ -2558,7 +2569,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) and (min-width: 737px) {
 
-				#footer .feature-list > .row > :nth-child(2) > section {
+				#contact .feature-list > .row > :nth-child(2) > section {
 					border-top: 0;
 					padding-top: 0;
 				}
@@ -2901,9 +2912,9 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		/* contact */
+		/* aboutme */
 
-			#contact {
+			#aboutme {
 				text-align: center;
 				padding-right: 2em;
 				padding-left: 2em;
@@ -2911,11 +2922,11 @@ input, select, textarea {
 				margin: 0 auto;
 			}
 
-				#contact p.style1 {
+				#aboutme p.style1 {
 					margin-bottom: 1.5em;
 				}
 
-				#contact p.style2 {
+				#aboutme p.style2 {
 					font-size: 1.5em;
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
@@ -2942,19 +2953,19 @@ input, select, textarea {
 					padding-bottom: 2.5em;
 				}
 
-		/* Footer */
+		/* contact */
 
-			#footer {
+			#contact {
 				padding-bottom: 0;
 			}
 
-				#footer header.style1 {
+				#contact header.style1 {
 					padding-bottom: 0;
 					margin-bottom: 2em;
 					border-bottom: 0;
 				}
 
-				#footer .feature-list {
+				#contact .feature-list {
 					border-top: 0;
 					padding-top: 0;
 				}
